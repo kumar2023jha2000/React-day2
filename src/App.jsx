@@ -14,7 +14,7 @@ function App() {
     }))
     setitem(updateitem)
   }
-  return (
+  return (git remote add origin
     <div>
       <button onClick={update}>update</button>
       {item.map(item=>(
